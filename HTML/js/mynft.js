@@ -137,7 +137,7 @@ $(window).load(async function () {
 				//console.log(data.image);
 
 				name = data.name;
-				//image = data.image;
+				image = data.image;
 
 
 			},
@@ -148,7 +148,7 @@ $(window).load(async function () {
 
 		return {
 			name: name,
-			//image: image
+			image: image
 		};
 
 	}
